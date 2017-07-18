@@ -5,9 +5,9 @@ function question1() {
   let avg = 0;
   for (i = 0; i < data.length; i++) {
     sum += data[i].price;
-    let avg = sum / data.length;
-  }
-  console.log(avg);
+    }
+  let avgloop = sum / data.length;
+  console.log(avgloop);
 }
 
 
